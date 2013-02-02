@@ -8,6 +8,7 @@ gem 'rails', '3.2.11'
 gem 'mysql2'
 
 gem 'spree',  :git => 'git://github.com/spree/spree.git', :branch => "1-3-stable"
+gem "spree_auth_devise", :git => "git://github.com/spree/spree_auth_devise", :branch => "1-3-stable"
 
 group :test,   :development do
   gem "rspec-rails"
