@@ -53,6 +53,15 @@ GIT
       devise-encryptable (= 0.1.1)
       spree_core
 
+GIT
+  remote: git://github.com/spree/spree_i18n.git
+  revision: 5a6eb632a049c22267e2f5bda4119bcb6a452900
+  branch: 1-3-stable
+  specs:
+    spree_i18n (1.0.0)
+      i18n (~> 0.5)
+      spree_core (>= 1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -186,6 +195,8 @@ GEM
       activesupport (= 3.2.11)
       bundler (~> 1.0)
       railties (= 3.2.11)
+    rails-i18n (0.7.2)
+      i18n (~> 0.5)
     railties (3.2.11)
       actionpack (= 3.2.11)
       activesupport (= 3.2.11)
@@ -250,8 +261,10 @@ DEPENDENCIES
   jquery-rails
   mysql2
   rails (= 3.2.11)
+  rails-i18n
   rspec-rails
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_i18n!
   uglifier (>= 1.0.3)
